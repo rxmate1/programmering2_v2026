@@ -9,7 +9,7 @@ public class HelloWorld {
     slike i et IntelliJ IDEA-prosjekt.
     Ikke tenk på nøkkelord, slik som static, void, String[] osv. helt enda.
      */
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Dette skriver ut en linje til standard output.
         System.out.println("Hello world!");
     }
