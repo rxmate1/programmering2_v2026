@@ -62,6 +62,5 @@ public class UsingStatic {
         System.out.println(Math.max(6, 300));
         System.out.println(LocalDate.now());
 
-
     }
 }

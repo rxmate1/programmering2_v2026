@@ -82,6 +82,5 @@ public class Polymorphism {
                 System.out.println(currentPerson.getFirstName() + " is a person!");
             }
         }
-
     }
 }
