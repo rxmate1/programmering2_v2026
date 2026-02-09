@@ -5,10 +5,35 @@ public class Person {
     protected String lastName;
     protected int age;
 
+    /*
+    En statisk variabel kan tenkes å tilhøre klassen selv og inneholder alltid den samme verdien for alle objekter.
+    Altså skiller statiske variabler seg fra instansvariabler hvor verdiene i motsetning er unike per objekt.
+    Med andre ord, hvis vi eventuelt endrer på verdien for en statisk variabel gjennom et objekt vil verdien
+    samtidig endre seg for alle andre objekter. Igjen, den statiske variabelen er tilhørende klassen som en helhet.
+
+    Under er det definert opp en statisk variabel som skal kunne holde på en oversikt over hvor mange objekter
+    av klassen som er blitt opprettet i programmet og skal oppdateres hver gang ett objekt opprettes.
+     */
+    private static int numPersons = 0;
+
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+
+        /*
+        Oppdaterer den statiske variabelen. Effekten er at hvert opprettede objekt av Person (direkte eller
+        barneklasser) øker telleren.
+        */
+        numPersons++;
+    }
+
+    /*
+    Dette er en statisk metode for å få tak i verdien i numPersons. Merk at denne (og eventuelle) public static
+    variabler typisk aksesseres gjennom klassen selv. Se UsingStatic sin main() for eksempler.
+     */
+    public static int getNumPersons() {
+        return numPersons;
     }
 
     public void compareAgeTo(Person otherPerson) {
