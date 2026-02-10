@@ -32,27 +32,47 @@ public class Polymorphism {
         listOfPersons.add(carpenter);
         listOfPersons.add(apprentice);
         listOfPersons.add(new BusDriver("Buzz", "Driver", 40,
+
+
                 "630 - Moss, Halden"));
 
-        for (Person currentPerson : listOfPersons) {
-            if (currentPerson instanceof BusDriver) {
-                BusDriver busDriver = (BusDriver) currentPerson;
-                System.out.println(busDriver.getFirstName() + " is a bus driver with route " +
-                        busDriver.getRoute());
+
+        for(Person currentPerson : listOfPersons) {
+            switch (currentPerson) {
+                case BusDriver currentBusDriver ->
+                        System.out.println(currentPerson.getFirstName() + " is a bus driver with route " +
+                                currentBusDriver.getRoute());
+                case CarpenterApprentice currentApprentice->
+                        System.out.println(currentApprentice.getFirstName() + " is a carpenter apprentice with training" +
+                                "period that starts " + currentApprentice.getTrainingStartDate());
+                case Carpenter currentCarpenter ->
+                        System.out.println(currentPerson.getFirstName() + " is a carpenter and has built " +
+                        currentCarpenter.getNumHousesBuilt() + " houses!");
+                default ->
+                        System.out.println(currentPerson.getFirstName() + " is a person!");
             }
-            else if (currentPerson instanceof CarpenterApprentice) {
-                System.out.println(currentPerson.getFirstName() + " is a carpenter apprentice with training" +
-                                "period that starts " + ((CarpenterApprentice) currentPerson).getTrainingStartDate()
+        }
+
+
+
+       /* for (Person currentPerson : listOfPersons) {
+            if (currentPerson instanceof BusDriver currentBusDriver) {
+                System.out.println(currentPerson.getFirstName() + " is a bus driver with route " +
+                        currentBusDriver.getRoute());
+            }
+            else if (currentPerson instanceof CarpenterApprentice currentApprentice) {
+                System.out.println(currentApprentice.getFirstName() + " is a carpenter apprentice with training" +
+                                "period that starts " + currentApprentice.getTrainingStartDate()
                         );
             }
-            else if (currentPerson instanceof Carpenter) {
+            else if (currentPerson instanceof Carpenter currentCarpenter) {
                 System.out.println(currentPerson.getFirstName() + " is a carpenter and has built " +
-                        ((Carpenter) currentPerson).getNumHousesBuilt() + " houses!");
+                        currentCarpenter.getNumHousesBuilt() + " houses!");
             }
             else {
                 System.out.println(currentPerson.getFirstName() + " is a person!");
             }
-        }
+        } */
 
     }
 }

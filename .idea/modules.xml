@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 01 - Introduksjon/Forelesning 01 - Introduksjon.iml" filepath="$PROJECT_DIR$/Forelesning 01 - Introduksjon/Forelesning 01 - Introduksjon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 03 - Grunnleggende konsepter/Forelesning 03 - Grunnleggende konsepter.iml" filepath="$PROJECT_DIR$/Forelesning 03 - Grunnleggende konsepter/Forelesning 03 - Grunnleggende konsepter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 04 - Metoder, Klasser og Objekter/Forelesning 04 - Metoder, Klasser og Objekter.iml" filepath="$PROJECT_DIR$/Forelesning 04 - Metoder, Klasser og Objekter/Forelesning 04 - Metoder, Klasser og Objekter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 05 - Innkapsling og Konstruktører/Forelesning 05 - Innkapsling og Konstruktører.iml" filepath="$PROJECT_DIR$/Forelesning 05 - Innkapsling og Konstruktører/Forelesning 05 - Innkapsling og Konstruktører.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 06 - Objektreferanser/Forelesning 06 - Objektreferanser.iml" filepath="$PROJECT_DIR$/Forelesning 06 - Objektreferanser/Forelesning 06 - Objektreferanser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 07 - ArrayList/Forelesning 07 - ArrayList.iml" filepath="$PROJECT_DIR$/Forelesning 07 - ArrayList/Forelesning 07 - ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 08 - Arv/Forelesning 08 - Arv.iml" filepath="$PROJECT_DIR$/Forelesning 08 - Arv/Forelesning 08 - Arv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 09 - Arv forts., Overriding, protected/Forelesning 09 - Arv forts., Overriding, protected.iml" filepath="$PROJECT_DIR$/Forelesning 09 - Arv forts., Overriding, protected/Forelesning 09 - Arv forts., Overriding, protected.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 10 - Overloading, Polymorfisme/Forelesning 10 - Overloading, Polymorfisme.iml" filepath="$PROJECT_DIR$/Forelesning 10 - Overloading, Polymorfisme/Forelesning 10 - Overloading, Polymorfisme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 11 - instanceof, Object Type Casting, static/Forelesning 11 - instanceof, Object Type Casting, static.iml" filepath="$PROJECT_DIR$/Forelesning 11 - instanceof, Object Type Casting, static/Forelesning 11 - instanceof, Object Type Casting, static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Forelesning 12 - Refaktorering, final, Konstaner, Utility-klasser/Forelesning 12 - Refaktorering, final, Konstaner, Utility-klasser.iml" filepath="$PROJECT_DIR$/Forelesning 12 - Refaktorering, final, Konstaner, Utility-klasser/Forelesning 12 - Refaktorering, final, Konstaner, Utility-klasser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/programmering2_v2026.iml" filepath="$PROJECT_DIR$/.idea/programmering2_v2026.iml" />
+    </modules>
+  </component>
+</project>

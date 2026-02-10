@@ -4,16 +4,31 @@ public class Person {
     protected String firstName;
     protected String lastName;
     protected int age;
+    private final String birthNumber;
 
     private static int numPersons = 0;
+
+    public Person (String birthNumber) {
+        this.birthNumber = birthNumber;
+    }
+
 
     public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        birthNumber = "12345678910";
 
         numPersons++;
+
+
     }
+
+    public String getBirthNumber() {
+        return birthNumber;
+    }
+
+
 
     public static int getNumPersons() {
         return numPersons;
